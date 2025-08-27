@@ -1,4 +1,7 @@
+caddy是一个极其简单的轻量化的http服务器，支持反向代理、负载均衡，还可以自动申请ssl证书并配置https，最重要的仅需几行命令就可以轻松配置好，不过前些年官方推出了v2版本，但是v2个人认为难用（用v2我还不如用nginx），干脆回到v1版本，反正大部分情况下足够了。
+
 安装：
+
 目前能找到的一键安装脚本基本上都是不能用的，官方出了v2版本之后v1脚本就全部失效，这里我重新修改了之前大佬制作的脚本，在root用户下安装即可：
 
 wget -N --no-check-certificate  https://raw.githubusercontent.com/serverspeed/caddy-v1/refs/heads/main/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
